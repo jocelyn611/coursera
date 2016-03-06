@@ -1,0 +1,33 @@
+<!Doctype html>
+<html>
+
+<head>
+    <title>Matching Game</title>
+    <meta charset="UTF-8">
+    <style type="text/css">
+        #right_span,
+        #left_span {
+            position:relative;
+            width: 800px;
+            height: 600px;
+            display: inline-block;
+            border-right: 2px solid black;
+        }
+        
+        #right_span {
+            border: none;
+        }
+    </style>
+</head>
+
+<body id="thebody" onload="matching_game()">
+    <h1>Matching Game</h1>
+    <p>Click on the extra smiling face on the left</p>
+    <div id="main_div">
+        <span id="left_span"></span>
+        <span id="right_span"></span>
+    </div>
+    <script src="matching_game_js.js"></script>
+</body>
+
+</html>
