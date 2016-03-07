@@ -15,7 +15,7 @@ function matching_game() {
 
     for (var i = 0; i < num; i++) {
         var theImg = document.createElement("img");
-        theImg.src = "smile.png";
+        theImg.src = "../images/smile.png";
         theImg.style.width = "50px";
         theImg.style.position = "absolute";
         theImg.style.top = position_top[i] + "px";
